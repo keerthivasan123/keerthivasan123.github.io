@@ -4,7 +4,7 @@
 body {
     font-family: 'Open Sans', serif;
     padding-top: 54px;
-    color: #868e96;
+    color: #03203d;
 }
 
 @media (min-width: 992px) {
@@ -23,7 +23,7 @@ h6 {
     font-family: 'Saira Extra Condensed', serif;
     font-weight: 700;
     text-transform: uppercase;
-    color: #343a40;
+    color: #1e2a3a;
 }
 
 h1 {
@@ -220,6 +220,11 @@ a:active {
   #about h1 {
     /*font-size: 100%;*/
   }
+
+@media (min-width: 992px)
+    .p-lg-5 {
+    padding: 4rem!important;
+}
 
 /*==================================================
                     EXPERIENCE
