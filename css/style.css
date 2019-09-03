@@ -83,6 +83,10 @@ a:active {
       text-transform: uppercase;
   }
 
+  #sideNav .nav-color {
+          color: rgb(31, 22, 22);
+
+  }
   @media (min-width: 992px) {
       #sideNav {
           text-align: center;
@@ -121,6 +125,11 @@ a:active {
       #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
           display: block;
       }
+      #sideNav .nav-color {
+        color: rgba(8, 5, 5);
+      }
+
+}
   }
 
 /*==================================================
@@ -200,7 +209,7 @@ a:active {
   }
 
   .bg-primary {
-      background-color: #2196f3 !important;
+      background-color: #a9d2f3 !important;
   }
 
   .text-primary {
